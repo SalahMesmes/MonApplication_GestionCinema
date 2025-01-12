@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.ScheduleTabController">
+
+    <center>
+        <GridPane fx:id="scheduleGridPane" gridLinesVisible="true">
+            <rowConstraints>
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+            </rowConstraints>
+        </GridPane>
+    </center>
+    <left>
+        <GridPane gridLinesVisible="true">
+            <children>
+                <Label text="Heure/Salles" GridPane.rowIndex="0">
+                    <font>
+                        <Font name="System Bold" />
+                    </font>
+                </Label>
+                <Label text="00h" GridPane.rowIndex="1" GridPane.halignment="CENTER" />
+                <Label text="01h" GridPane.rowIndex="2" GridPane.halignment="CENTER" />
+                <Label text="02h" GridPane.rowIndex="3" GridPane.halignment="CENTER" />
+                <Label text="03h" GridPane.rowIndex="4" GridPane.halignment="CENTER" />
+                <Label text="04h" GridPane.rowIndex="5" GridPane.halignment="CENTER" />
+                <Label text="05h" GridPane.rowIndex="6" GridPane.halignment="CENTER" />
+                <Label text="06h" GridPane.rowIndex="7" GridPane.halignment="CENTER" />
+                <Label text="07h" GridPane.rowIndex="8" GridPane.halignment="CENTER" />
+                <Label text="08h" GridPane.rowIndex="9" GridPane.halignment="CENTER" />
+                <Label text="09h" GridPane.rowIndex="10" GridPane.halignment="CENTER" />
+                <Label text="10h" GridPane.rowIndex="11" GridPane.halignment="CENTER" />
+                <Label text="11h" GridPane.rowIndex="12" GridPane.halignment="CENTER" />
+                <Label text="12h" GridPane.rowIndex="13" GridPane.halignment="CENTER" />
+                <Label text="13h" GridPane.rowIndex="14" GridPane.halignment="CENTER" />
+                <Label text="14h" GridPane.rowIndex="15" GridPane.halignment="CENTER" />
+                <Label text="15h" GridPane.rowIndex="16" GridPane.halignment="CENTER" />
+                <Label text="16h" GridPane.rowIndex="17" GridPane.halignment="CENTER" />
+                <Label text="17h" GridPane.rowIndex="18" GridPane.halignment="CENTER" />
+                <Label text="18h" GridPane.rowIndex="19" GridPane.halignment="CENTER" />
+                <Label text="19h" GridPane.rowIndex="20" GridPane.halignment="CENTER" />
+                <Label text="20h" GridPane.rowIndex="21" GridPane.halignment="CENTER" />
+                <Label text="21h" GridPane.rowIndex="22" GridPane.halignment="CENTER" />
+                <Label text="22h" GridPane.rowIndex="23" GridPane.halignment="CENTER" />
+                <Label text="23h" GridPane.rowIndex="24" GridPane.halignment="CENTER" />
+            </children>
+            <rowConstraints>
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+            </rowConstraints>
+        </GridPane>
+    </left>
+    <right>
+        <GridPane gridLinesVisible="true" BorderPane.alignment="CENTER">
+            <children>
+                <Label text="Salles/Heure" GridPane.rowIndex="0" >
+                    <font>
+                        <Font name="System Bold" />
+                    </font>
+                </Label>
+                <Label text="00h" GridPane.rowIndex="1" GridPane.halignment="CENTER" />
+                <Label text="01h" GridPane.rowIndex="2" GridPane.halignment="CENTER" />
+                <Label text="02h" GridPane.rowIndex="3" GridPane.halignment="CENTER" />
+                <Label text="03h" GridPane.rowIndex="4" GridPane.halignment="CENTER" />
+                <Label text="04h" GridPane.rowIndex="5" GridPane.halignment="CENTER" />
+                <Label text="05h" GridPane.rowIndex="6" GridPane.halignment="CENTER" />
+                <Label text="06h" GridPane.rowIndex="7" GridPane.halignment="CENTER" />
+                <Label text="07h" GridPane.rowIndex="8" GridPane.halignment="CENTER" />
+                <Label text="08h" GridPane.rowIndex="9" GridPane.halignment="CENTER" />
+                <Label text="09h" GridPane.rowIndex="10" GridPane.halignment="CENTER" />
+                <Label text="10h" GridPane.rowIndex="11" GridPane.halignment="CENTER" />
+                <Label text="11h" GridPane.rowIndex="12" GridPane.halignment="CENTER" />
+                <Label text="12h" GridPane.rowIndex="13" GridPane.halignment="CENTER" />
+                <Label text="13h" GridPane.rowIndex="14" GridPane.halignment="CENTER" />
+                <Label text="14h" GridPane.rowIndex="15" GridPane.halignment="CENTER" />
+                <Label text="15h" GridPane.rowIndex="16" GridPane.halignment="CENTER" />
+                <Label text="16h" GridPane.rowIndex="17" GridPane.halignment="CENTER" />
+                <Label text="17h" GridPane.rowIndex="18" GridPane.halignment="CENTER" />
+                <Label text="18h" GridPane.rowIndex="19" GridPane.halignment="CENTER" />
+                <Label text="19h" GridPane.rowIndex="20" GridPane.halignment="CENTER" />
+                <Label text="20h" GridPane.rowIndex="21" GridPane.halignment="CENTER" />
+                <Label text="21h" GridPane.rowIndex="22" GridPane.halignment="CENTER" />
+                <Label text="22h" GridPane.rowIndex="23" GridPane.halignment="CENTER" />
+                <Label text="23h" GridPane.rowIndex="24" GridPane.halignment="CENTER" />
+            </children>
+            <rowConstraints>
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+                <RowConstraints vgrow="ALWAYS" />
+            </rowConstraints>
+        </GridPane>
+    </right>
+    <top>
+        <GridPane alignment="CENTER" gridLinesVisible="true" BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="ALWAYS" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints vgrow="ALWAYS" />
+            </rowConstraints>
+            <children>
+                <Label fx:id="dateTimeNowLabel" GridPane.halignment="CENTER" />
+            </children>
+        </GridPane>
+    </top>
+</BorderPane>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+
+
+<ScrollPane fitToWidth="true"
+            xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.AddManagementTabController">
+    <content>
+        <VBox alignment="TOP_CENTER" spacing="5" style="-fx-background-color: #f0f0f0; -fx-padding: 10px;">
+
+            <VBox spacing="5" style="-fx-background-color: #ffffff; -fx-padding: 10px; -fx-border-radius: 5px;">
+                <Label style="-fx-font-weight: bold;" text="Ajouter un film" />
+                <TextField fx:id="filmNameField" promptText="Nom du film" />
+                <DatePicker fx:id="movieReleaseDatePicker" promptText="Date de sortie" />
+                <ComboBox fx:id="genderComboBox" promptText="Genre" />
+                <TextArea fx:id="detailsArea" promptText="Détails" wrapText="true" />
+                <TextField fx:id="durationField" promptText="Durée (minutes)" />
+                <ColorPicker fx:id="colorPickerMovie" />
+                <Button onAction="#addMovie" text="Ajouter Film" />
+            </VBox>
+
+            <Separator />
+
+            <VBox spacing="5" style="-fx-background-color: #ffffff; -fx-padding: 10px; -fx-border-radius: 5px;">
+                <Label style="-fx-font-weight: bold;" text="Ajouter un genre" />
+                <TextField fx:id="genderNameField" promptText="Nom du genre" />
+                <Button onAction="#addGender" text="Ajouter Genre" />
+            </VBox>
+
+            <Separator />
+
+            <VBox spacing="5" style="-fx-background-color: #ffffff; -fx-padding: 10px; -fx-border-radius: 5px;">
+                <Label style="-fx-font-weight: bold;" text="Ajouter une salle" />
+                <TextField fx:id="roomNameField" promptText="Nom de la salle" />
+                <TextField fx:id="capacityField" promptText="Capacité assises" />
+                <ColorPicker fx:id="colorPickerRoom" />
+                <Button onAction="#addRoom" text="Ajouter Salle" />
+            </VBox>
+
+            <Separator />
+
+            <VBox spacing="5" style="-fx-background-color: #ffffff; -fx-padding: 10px; -fx-border-radius: 5px;">
+                <Label style="-fx-font-weight: bold;" text="Ajouter un tarif" />
+                <TextField fx:id="priceNameField" promptText="Nom du tarif" />
+                <TextField fx:id="priceCostField" promptText="Prix du tarif" />
+                <Button onAction="#addPricing" text="Ajouter Tarif" />
+            </VBox>
+
+        </VBox>
+    </content>
+</ScrollPane>

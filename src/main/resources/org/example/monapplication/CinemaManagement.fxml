@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="controllers.CinemaManagementController">
+    <center>
+        <TabPane>
+            <Tab closable="false" text="Planning">
+                <fx:include source="ScheduleTab.fxml"/>
+            </Tab>
+            <Tab closable="false" text="Liste des Films / Salles">
+                <fx:include source="MovieAndRoomListTab.fxml"/>
+            </Tab>
+            <Tab closable="false" text="Ajouter">
+                <fx:include source="AddManagementTab.fxml"/>
+            </Tab>
+            <Tab closable="false" text="Facturation">
+                <fx:include source="BillingTab.fxml"/>
+            </Tab>
+        </TabPane>
+    </center>
+</BorderPane>
